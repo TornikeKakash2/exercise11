@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+#firstname {
+  width: 700px;
+  height: 40px;
+  border-radius: 8px;
+  border-width: 3px;
+}
+#lastname {
+  width: 700px;
+  height: 40px;
+  border-radius: 8px;
+  border-width: 3px;
+}
+#email {
+  width: 700px;
+  height: 40px;
+  border-radius: 8px;
+  border-width: 3px;
+}
+
+#password {
+  width: 700px;
+  height: 40px;
+  border-radius: 8px;
+  border-width: 3px;
+}
+
+input.valid {
+  border-color: #80ed99;
+}
+
+input.invalid {
+  border-color: orange;
+  display: block;
+}
+
+.paragraph {
+  display: none;
+}
